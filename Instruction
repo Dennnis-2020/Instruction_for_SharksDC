@@ -1,0 +1,15 @@
+# Запись событий в rsyslog-сервер
+## Команда 
+Чтобы записать событие на `rsyslog`-сервер, необходимо создать конфигурацию конечной точки логирования следующей командой:
+
+```
+aaaevents syslog add [-h]
+                      --protocol PROTOCOL
+                      --address ADDRESS
+                      --port PORT
+                      --use_tls USE_TLS
+                      --ca_data CA_DATA
+                      --ca_file CA_FILE
+                      --log_enabled LOG_ENABLED
+```
+### Аргументы команды
