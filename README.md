@@ -1,7 +1,7 @@
 # Тестовое задание по созданию инструкции по RSYSLOGD для SharxDC
 Необходимо написать инструкцию «Запись событий в rsyslog-сервер».
 ## Исходные данные
-1. Статья разработчика [configuring-syslog-for-test.md](https://github.com/Dennnis-2020/Instruction_SharxDC/blob/main/configuring-syslog-for-test.md "configuring-syslog-for-test.md")
+1. Статья разработчика [configuring-syslog-for-test.md](https://github.com/Dennnis-2020/Instruction_for_SharksDC/blob/main/configuring-syslog-for-test.md "configuring-syslog-for-test.md")
 2. Команда создания конфигурации конечной точки на сервере (взята из справочника CLI)
 > aaaevents syslog add [-h] --protocol PROTOCOL
                             --address ADDRESS
