@@ -3,13 +3,24 @@
 Чтобы записать событие на `rsyslog`-сервер, необходимо создать конфигурацию конечной точки логирования следующей командой:
 
 ```
-aaaevents syslog add [-h]
-                      --protocol PROTOCOL
-                      --address ADDRESS
-                      --port PORT
-                      --use_tls USE_TLS
-                      --ca_data CA_DATA
-                      --ca_file CA_FILE
-                      --log_enabled LOG_ENABLED
+aaaevents syslog add  [-h] --help
+                      [--protocol PROTOCOL]
+                      [--address ADDRESS]
+                      [--port PORT]
+                      [--use_tls USE_TLS]
+                      [--ca_data CA_DATA]
+                      [--ca_file CA_FILE]
+                      [--log_enabled LOG_ENABLED]
 ```
 ### Аргументы команды
+`[-h] --help` — отобразить это сообщение и выйти из процесса.
+`[--protocol PROTOCOL]` — задать протокол передачи данных, можно задать UDP или TCP.
+`[--address ADDRESS]` — задать IP-адрес rsyslog-сервера или его доменное имя
+> !!! note "Примечание"
+> Во ВЦОД может существовать только одна конфигурация конечной точки syslog-сервера.  
+``
+``
+``
+``
+``
+``
