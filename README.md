@@ -1,2 +1,32 @@
-# Instruction_for_SharksDC
-Test doc
+# Тестовое задание по созданию инструкции по RSYSLOGD для SharxDC
+Необходимо написать инструкцию «Запись событий в rsyslog-сервер».
+## Исходные данные
+1. Статья разработчика [configuring-syslog-for-test.md](https://github.com/Dennnis-2020/Instruction_SharxDC/blob/main/configuring-syslog-for-test.md "configuring-syslog-for-test.md")
+2. Команда создания конфигурации конечной точки на сервере (взята из справочника CLI)
+> aaaevents syslog add [-h] --protocol PROTOCOL
+                            --address ADDRESS
+                            [--port PORT]
+                            [--use_tls USE_TLS]
+                            [--ca_data CA_DATA]
+                            [--ca_file CA_FILE]
+                            [--log_enabled LOG_ENABLED]
+arguments:
+  -h, --help            show this help message and exit
+ --protocol PROTOCOL - protocol to use when logging to syslog  
+ --address ADDRESS - syslog server address  
+ --port PORT - syslog server connection port  
+ --use_tls USE_TLS - use secure connection to syslog server  
+ --ca_data CA_DATA - CA file content  
+ --ca_file CA_FILE - path to CA file  
+ --log_enabled LOG_ENABLED - enable logging to syslog server
+3. Описание атрибутов описывайте на русском языке.
+4. Символ / в значении «или» в тексте не используйте.
+5. Для Заметок используйте следующие типы и синтаксис:
+> !!! note "Примечание"
+     Это примечание. Дополнительная информация
+
+> !!! warning "Важно"
+     Это важная информация. Предостережение
+
+> !!! failure "Внимание"
+     Это предупреждение. Ограничение в системе
